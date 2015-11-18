@@ -1,5 +1,6 @@
 var todo = {
   setup: function(todos){
+    console.log('setup!');
     todo.app = new todo.App({
       el: '#todo-app',
       items: todos
